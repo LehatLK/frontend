@@ -1,0 +1,95 @@
+#container {
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    padding-top: 30px;
+    color: orange;
+    font-size: large;
+    
+    
+    }
+    
+    body{
+        margin: 0 auto;
+    }
+    
+    label {
+    
+    margin-left: 500px;
+    }
+    
+    a {
+        color: orange;
+        text-decoration-line: none;
+        margin-right: 100px;
+        font-size: large;
+        margin-left: 15px;
+    }
+    
+    .ban {
+        height: 650px;
+        width: 100%;
+    }
+    
+    .banner-text {
+        position: absolute;
+       color: burlywood;
+       top: 300px;
+       left: 300px;
+        font-style:unset;
+        text-transform: uppercase;
+        font-weight: 700;
+    
+    
+    }
+    
+    
+    #boxes
+    {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 60px;
+    
+    }
+    
+    
+    .box1,.box2, .box3, .box4, .box5, .box6 {
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        
+        
+    }
+    
+    .box1, .box4 {
+        margin-left: 60px;
+    }
+    .box3, .box6 {
+        margin-left: 100px;
+    }
+    .box2, .box5 {
+        margin-left: 100px;
+    }
+    
+    button {
+        margin-left: 60px;
+       background-color: orange;
+        
+    }
+    
+    .Search {
+        background-color: white;
+        margin-left: 1px;
+    }
+    
+    footer {
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    color: orange;
+    font-size: x-large;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    }
+    
