@@ -35,6 +35,7 @@ async function fetchAllproducts() {
       <h3 class ="Stock">${list.Price} KR </h3>
       <p class =description>${list.Description}</p>
       <p id=category>${list.Category}</p>
+
   </li>`
       
       
