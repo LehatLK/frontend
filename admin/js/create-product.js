@@ -54,7 +54,7 @@ const submit = document.getElementById("for-1");
       } catch (error) {
         console.log(error);
       } 
-      window.location.replace('file:///Users/momme40/ws/frontend/admin/manage-product.html')
+      window.location.replace('file:///Users/momme40/ws/frontend/products.html')
       
       
     })

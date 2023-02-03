@@ -47,7 +47,7 @@ async function fetchproduct() {
     <td>${list.Category}</td>
     <td>${list.Description}</td>
     <td>${list.date}</td>
-    <td><button id= ${list._id} class= "update button">Update button</button></td>
+    <td> <a href="update-product.html?id=${list._id}"> Update link </a> </td>
     <td><button id=${list._id} class= "delete button" >Delete button</button></td>
 
   </tr>`
