@@ -8,6 +8,7 @@ const submit = document.getElementById("for-1");
     const Description = document.getElementById("description").value;
     const Price = document.getElementById("price").value;
     const Stock = document.getElementById("stock").value;
+    const category11 = document.getElementById("category").value;
     
     
     
@@ -42,7 +43,8 @@ const submit = document.getElementById("for-1");
           {"title": title ,
           "Description": Description,
           "Price": Price,
-          "Stock": Stock }) // body data type must match "Content-Type" header
+          "Stock": Stock,
+          "Category": category11 }) // body data type must match "Content-Type" header
         });
 
         const data = response4.json()
